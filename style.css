@@ -1,0 +1,70 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../countdowntimer2/image/coverTwo.webp");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+
+.countdown-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    font-family: 'Orbitron', sans-serif;
+
+
+
+   
+
+
+}
+
+.element{
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+
+.element p{
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+
+    
+    
+}
+
+span{
+
+    font-weight: bold;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
